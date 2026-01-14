@@ -262,7 +262,7 @@
 }
 
 .xblock--drag-and-drop .drag-container .option.fade {
-    opacity: 0.80;
+    opacity: 1;
 }
 
 /*** DROP TARGET ***/
