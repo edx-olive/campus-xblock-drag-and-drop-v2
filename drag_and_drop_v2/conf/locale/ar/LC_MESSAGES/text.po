@@ -181,62 +181,62 @@ msgstr "عرض عنوان \"المسألة\" فوق نص المسألة؟"
 
 #: drag_and_drop_v2.py:138
 msgid "Show answer"
-msgstr ""
+msgstr "إظهار الإجابة"
 
 #: drag_and_drop_v2.py:139
 msgid ""
 "Defines when to show the answer to the problem. A default value can be set "
 "in Advanced Settings. To revert setting a custom value, choose the 'Default'"
 " option."
-msgstr ""
+msgstr "يحدد متى يتم إظهار الإجابة للمشكلة. يمكن تعيين قيمة افتراضية في الإعدادات المتقدمة. للعودة إلى تعيين قيمة مخصصة، اختر خيار 'افتراضي'."
 
 #: drag_and_drop_v2.py:145
 msgid "Default"
-msgstr ""
+msgstr "افتراضي"
 
 #: drag_and_drop_v2.py:146
 msgid "Always"
-msgstr ""
+msgstr "دائماً"
 
 #: drag_and_drop_v2.py:147
 msgid "Answered"
-msgstr ""
+msgstr "تمت الإجابة"
 
 #: drag_and_drop_v2.py:148
 msgid "Attempted or Past Due"
-msgstr ""
+msgstr "تمت المحاولة أو متأخر"
 
 #: drag_and_drop_v2.py:149
 msgid "Closed"
-msgstr ""
+msgstr "مغلق"
 
 #: drag_and_drop_v2.py:150
 msgid "Finished"
-msgstr ""
+msgstr "منتهي"
 
 #: drag_and_drop_v2.py:151
 msgid "Correct or Past Due"
-msgstr ""
+msgstr "صحيح أو متأخر"
 
 #: drag_and_drop_v2.py:152
 msgid "Past Due"
-msgstr ""
+msgstr "متأخر"
 
 #: drag_and_drop_v2.py:153
 msgid "Never"
-msgstr ""
+msgstr "أبداً"
 
 #: drag_and_drop_v2.py:154
 msgid "After All Attempts"
-msgstr ""
+msgstr "بعد كل المحاولات"
 
 #: drag_and_drop_v2.py:155
 msgid "After All Attempts or Correct"
-msgstr ""
+msgstr "بعد كل المحاولات أو الإجابة الصحيحة"
 
 #: drag_and_drop_v2.py:156
 msgid "Attempted"
-msgstr ""
+msgstr "تمت المحاولة"
 
 #: drag_and_drop_v2.py:162
 msgid "Problem Weight"
@@ -283,7 +283,7 @@ msgid ""
 "Information about zones, items, feedback, explanation and background image "
 "for this problem. This information is derived from the input that a course "
 "author provides via the interactive editor when configuring the problem."
-msgstr ""
+msgstr "معلومات حول المناطق والعناصر والتقييم والشرح وصورة الخلفية لهذه المشكلة. يتم استخلاص هذه المعلومات من المدخلات التي يقدمها مؤلف الدورة عبر المحرر التفاعلي عند تكوين المشكلة."
 
 #: drag_and_drop_v2.py:206
 msgid ""
@@ -302,7 +302,7 @@ msgstr "يوضح ما إذا كان الطالب قد أنهى المسالة م
 #: drag_and_drop_v2.py:227
 msgid ""
 "DEPRECATED. Keeps maximum score achieved by student as a weighted value."
-msgstr ""
+msgstr "مهمل. يحفظ الدرجة القصوى التي حققها الطالب كقيمة مرجحة."
 
 #: drag_and_drop_v2.py:233
 msgid ""
@@ -311,7 +311,7 @@ msgstr "يحافظ على الدرجة القصوى التي يحققها الط
 
 #: drag_and_drop_v2.py:240
 msgid "Maximum score available of the problem as a raw value between 0 and 1."
-msgstr ""
+msgstr "الدرجة القصوى المتاحة للمشكلة كقيمة أولية بين ٠ و ١."
 
 #: drag_and_drop_v2.py:568
 #, python-brace-format
@@ -324,7 +324,7 @@ msgstr "يجب استدعاء معالج show_answer فقط لوضعية الت�
 
 #: drag_and_drop_v2.py:649
 msgid "The answer is unavailable"
-msgstr ""
+msgstr "الإجابة غير متاحة"
 
 #: drag_and_drop_v2.py:798
 msgid "do_attempt handler should only be called for assessment mode"
@@ -348,7 +348,7 @@ msgstr "الإعدادات الأساسية"
 
 #: templates/html/drag_and_drop_edit.html:53
 msgid "(inherited from Advanced Settings)"
-msgstr ""
+msgstr "(موروث من الإعدادات المتقدمة)"
 
 #: templates/html/drag_and_drop_edit.html:90
 msgid "Introductory feedback"
@@ -360,7 +360,7 @@ msgstr "تقييم نهائي"
 
 #: templates/html/drag_and_drop_edit.html:100
 msgid "Explanation Text"
-msgstr ""
+msgstr "نص الشرح"
 
 #: templates/html/drag_and_drop_edit.html:109
 msgid "Zones"
@@ -459,7 +459,7 @@ msgstr "عرض حدود المنطقة على الصورة"
 
 #: templates/html/drag_and_drop_edit.html:215
 msgid "Display zone borders when dragging an item"
-msgstr ""
+msgstr "إظهار حدود المنطقة عند سحب عنصر"
 
 #: templates/html/drag_and_drop_edit.html:220
 msgid "Zone definitions"
@@ -597,7 +597,7 @@ msgstr "تقييم"
 
 #: public/js/drag_and_drop.js:336 public/js/drag_and_drop.js:341
 msgid "Explanation"
-msgstr ""
+msgstr "شرح"
 
 #: public/js/drag_and_drop.js:357 public/js/drag_and_drop.js:547
 msgid "Close"

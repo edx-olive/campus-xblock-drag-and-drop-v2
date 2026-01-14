@@ -56,15 +56,15 @@ msgstr "Используйте эту зону, чтобы связать эле
 
 #: default_data.py:22
 msgid "Correct! This one belongs to The Top Zone."
-msgstr ""
+msgstr "Правильно! Это относится к верхней зоне."
 
 #: default_data.py:23
 msgid "Correct! This one belongs to The Middle Zone."
-msgstr ""
+msgstr "Правильно! Это относится к средней зоне."
 
 #: default_data.py:24
 msgid "Correct! This one belongs to The Bottom Zone."
-msgstr ""
+msgstr "Правильно! Это относится к нижней зоне."
 
 #: default_data.py:25
 msgid "No, this item does not belong here. Try again."
@@ -174,62 +174,62 @@ msgstr "Отображать заголовок «Задача» над усло
 
 #: drag_and_drop_v2.py:138
 msgid "Show answer"
-msgstr ""
+msgstr "Показать ответ"
 
 #: drag_and_drop_v2.py:139
 msgid ""
 "Defines when to show the answer to the problem. A default value can be set "
 "in Advanced Settings. To revert setting a custom value, choose the 'Default'"
 " option."
-msgstr ""
+msgstr "Определяет, когда показывать ответ на задачу. Значение по умолчанию можно установить в расширенных настройках. Чтобы вернуться к пользовательскому значению, выберите опцию 'По умолчанию'."
 
 #: drag_and_drop_v2.py:145
 msgid "Default"
-msgstr ""
+msgstr "По умолчанию"
 
 #: drag_and_drop_v2.py:146
 msgid "Always"
-msgstr ""
+msgstr "Всегда"
 
 #: drag_and_drop_v2.py:147
 msgid "Answered"
-msgstr ""
+msgstr "Отвечено"
 
 #: drag_and_drop_v2.py:148
 msgid "Attempted or Past Due"
-msgstr ""
+msgstr "Попытка или просрочено"
 
 #: drag_and_drop_v2.py:149
 msgid "Closed"
-msgstr ""
+msgstr "Закрыто"
 
 #: drag_and_drop_v2.py:150
 msgid "Finished"
-msgstr ""
+msgstr "Завершено"
 
 #: drag_and_drop_v2.py:151
 msgid "Correct or Past Due"
-msgstr ""
+msgstr "Правильно или просрочено"
 
 #: drag_and_drop_v2.py:152
 msgid "Past Due"
-msgstr ""
+msgstr "Просрочено"
 
 #: drag_and_drop_v2.py:153
 msgid "Never"
-msgstr ""
+msgstr "Никогда"
 
 #: drag_and_drop_v2.py:154
 msgid "After All Attempts"
-msgstr ""
+msgstr "После всех попыток"
 
 #: drag_and_drop_v2.py:155
 msgid "After All Attempts or Correct"
-msgstr ""
+msgstr "После всех попыток или правильного ответа"
 
 #: drag_and_drop_v2.py:156
 msgid "Attempted"
-msgstr ""
+msgstr "Попытка"
 
 #: drag_and_drop_v2.py:162
 msgid "Problem Weight"
@@ -259,13 +259,13 @@ msgstr "Цвет текста в перетаскиваемых элемента
 
 #: drag_and_drop_v2.py:186
 msgid "Maximum items per zone"
-msgstr ""
+msgstr "Максимум элементов на зону"
 
 #: drag_and_drop_v2.py:187
 msgid ""
 "This setting limits the number of items that can be dropped into a single "
 "zone."
-msgstr ""
+msgstr "Этот параметр ограничивает количество элементов, которые можно поместить в одну зону."
 
 #: drag_and_drop_v2.py:194
 msgid "Problem data"
@@ -276,7 +276,7 @@ msgid ""
 "Information about zones, items, feedback, explanation and background image "
 "for this problem. This information is derived from the input that a course "
 "author provides via the interactive editor when configuring the problem."
-msgstr ""
+msgstr "Информация о зонах, элементах, обратной связи, объяснении и фоновом изображении для этой задачи. Эта информация получена из данных, которые автор курса предоставляет через интерактивный редактор при настройке задачи."
 
 #: drag_and_drop_v2.py:206
 msgid ""
@@ -295,16 +295,16 @@ msgstr "Показывает, удалось ли слушателю хотя б
 #: drag_and_drop_v2.py:227
 msgid ""
 "DEPRECATED. Keeps maximum score achieved by student as a weighted value."
-msgstr ""
+msgstr "УСТАРЕЛО. Сохраняет максимальный балл, достигнутый студентом, как взвешенное значение."
 
 #: drag_and_drop_v2.py:233
 msgid ""
 "Keeps maximum score achieved by student as a raw value between 0 and 1."
-msgstr ""
+msgstr "Сохраняет максимальный балл, достигнутый студентом, как необработанное значение от 0 до 1."
 
 #: drag_and_drop_v2.py:240
 msgid "Maximum score available of the problem as a raw value between 0 and 1."
-msgstr ""
+msgstr "Максимальный доступный балл задачи как необработанное значение от 0 до 1."
 
 #: drag_and_drop_v2.py:568
 #, python-brace-format
@@ -317,7 +317,7 @@ msgstr "Обработчик show_answer должен вызываться то�
 
 #: drag_and_drop_v2.py:649
 msgid "The answer is unavailable"
-msgstr ""
+msgstr "Ответ недоступен"
 
 #: drag_and_drop_v2.py:798
 msgid "do_attempt handler should only be called for assessment mode"
@@ -329,7 +329,7 @@ msgstr "Превышено максимальное количество поп�
 
 #: drag_and_drop_v2.py:808
 msgid "Submission deadline has passed."
-msgstr ""
+msgstr "Срок подачи истек."
 
 #: templates/html/drag_and_drop.html:4
 msgid "Loading drag and drop problem."
@@ -337,11 +337,11 @@ msgstr "Идёт загрузка задания на перетаскивани
 
 #: templates/html/drag_and_drop_edit.html:10
 msgid "Basic Settings"
-msgstr ""
+msgstr "Основные настройки"
 
 #: templates/html/drag_and_drop_edit.html:53
 msgid "(inherited from Advanced Settings)"
-msgstr ""
+msgstr "(унаследовано из расширенных настроек)"
 
 #: templates/html/drag_and_drop_edit.html:90
 msgid "Introductory feedback"
@@ -353,7 +353,7 @@ msgstr "Итоговое сообщение для обратной связи"
 
 #: templates/html/drag_and_drop_edit.html:100
 msgid "Explanation Text"
-msgstr ""
+msgstr "Текст объяснения"
 
 #: templates/html/drag_and_drop_edit.html:109
 msgid "Zones"
@@ -361,15 +361,15 @@ msgstr "Зоны"
 
 #: templates/html/drag_and_drop_edit.html:114
 msgid "Background Image"
-msgstr ""
+msgstr "Фоновое изображение"
 
 #: templates/html/drag_and_drop_edit.html:117
 msgid "Provide custom image"
-msgstr ""
+msgstr "Предоставить пользовательское изображение"
 
 #: templates/html/drag_and_drop_edit.html:121
 msgid "Generate image automatically"
-msgstr ""
+msgstr "Создать изображение автоматически"
 
 #: templates/html/drag_and_drop_edit.html:126
 msgid "Background URL"
@@ -387,39 +387,39 @@ msgstr "Например, http://example.com/background.png или /static/backg
 
 #: templates/html/drag_and_drop_edit.html:140
 msgid "Zone Layout"
-msgstr ""
+msgstr "Макет зоны"
 
 #: templates/html/drag_and_drop_edit.html:142
 msgid "Number of columns"
-msgstr ""
+msgstr "Количество столбцов"
 
 #: templates/html/drag_and_drop_edit.html:150
 msgid "Number of rows"
-msgstr ""
+msgstr "Количество строк"
 
 #: templates/html/drag_and_drop_edit.html:157
 msgid "Number of columns and rows."
-msgstr ""
+msgstr "Количество столбцов и строк."
 
 #: templates/html/drag_and_drop_edit.html:161
 msgid "Zone Size"
-msgstr ""
+msgstr "Размер зоны"
 
 #: templates/html/drag_and_drop_edit.html:163
 msgid "Zone width"
-msgstr ""
+msgstr "Ширина зоны"
 
 #: templates/html/drag_and_drop_edit.html:171
 msgid "Zone height"
-msgstr ""
+msgstr "Высота зоны"
 
 #: templates/html/drag_and_drop_edit.html:178
 msgid "Size of a single zone in pixels."
-msgstr ""
+msgstr "Размер одной зоны в пикселях."
 
 #: templates/html/drag_and_drop_edit.html:181
 msgid "Generate image and zones"
-msgstr ""
+msgstr "Создать изображение и зоны"
 
 #: templates/html/drag_and_drop_edit.html:184
 msgid "Background description"
@@ -452,7 +452,7 @@ msgstr "Отображать границы зон на изображении"
 
 #: templates/html/drag_and_drop_edit.html:215
 msgid "Display zone borders when dragging an item"
-msgstr ""
+msgstr "Показывать границы зоны при перетаскивании элемента"
 
 #: templates/html/drag_and_drop_edit.html:220
 msgid "Zone definitions"
@@ -468,7 +468,7 @@ msgstr "Элементы"
 
 #: templates/html/drag_and_drop_edit.html:274
 msgid "Item definitions"
-msgstr ""
+msgstr "Определения элементов"
 
 #: templates/html/drag_and_drop_edit.html:278
 msgid "Add an item"
@@ -542,7 +542,7 @@ msgstr "Отправка"
 
 #: public/js/drag_and_drop.js:162
 msgid "Unknown Zone"
-msgstr ""
+msgstr "Неизвестная зона"
 
 #: public/js/drag_and_drop.js:166
 msgid "Placed in: {zone_title}"
@@ -562,11 +562,11 @@ msgstr ", перетаскиваемый"
 
 #: public/js/drag_and_drop.js:259
 msgid "No items placed here"
-msgstr ""
+msgstr "Здесь нет элементов"
 
 #: public/js/drag_and_drop.js:265
 msgid "Items placed here: "
-msgstr ""
+msgstr "Элементы размещены здесь: "
 
 #: public/js/drag_and_drop.js:297
 msgid ", dropzone"
@@ -574,7 +574,7 @@ msgstr ", зона для перетаскивания"
 
 #: public/js/drag_and_drop.js:300
 msgid "droppable"
-msgstr ""
+msgstr "можно сбросить"
 
 #: public/js/drag_and_drop.js:321 public/js/drag_and_drop.js:325
 msgid "Feedback"
@@ -582,7 +582,7 @@ msgstr "Обратная связь"
 
 #: public/js/drag_and_drop.js:336 public/js/drag_and_drop.js:341
 msgid "Explanation"
-msgstr ""
+msgstr "Объяснение"
 
 #: public/js/drag_and_drop.js:357 public/js/drag_and_drop.js:547
 msgid "Close"
@@ -594,7 +594,7 @@ msgstr "Помощь по управлению с клавиатуры"
 
 #: public/js/drag_and_drop.js:363
 msgid "This is a screen reader-friendly problem."
-msgstr ""
+msgstr "Это задача, удобная для программ чтения с экрана."
 
 #: public/js/drag_and_drop.js:364
 msgid ""
@@ -743,7 +743,7 @@ msgstr "Произошла ошибка.  Не удалось загрузить
 
 #: public/js/drag_and_drop.js:1359
 msgid "You cannot add any more items to this zone."
-msgstr ""
+msgstr "Вы не можете добавить больше элементов в эту зону."
 
 #: public/js/drag_and_drop_edit.js:123 public/js/drag_and_drop_edit.js:520
 #: public/js/drag_and_drop_edit.js:751
@@ -764,7 +764,7 @@ msgstr[3] ""
 
 #: public/js/drag_and_drop_edit.js:521
 msgid "Please check the values you entered."
-msgstr ""
+msgstr "Пожалуйста, проверьте введенные значения."
 
 #: public/js/drag_and_drop_edit.js:744
 msgid "Saving"
