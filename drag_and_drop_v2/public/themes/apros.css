@@ -76,3 +76,21 @@
     cursor: pointer;
     color: #3384ca;
 }
+
+/* Minimal RTL fix ONLY for the Keyboard Help modal */
+html[dir="rtl"] .themed-xblock.xblock--drag-and-drop .keyboard-help-dialog .modal-window {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Move the close (X) button to the right in RTL */
+html[dir="rtl"] .themed-xblock.xblock--drag-and-drop .keyboard-help-dialog .modal-dismiss-button {
+  left: auto !important;
+  right: 12px !important;
+}
+
+/* Fix list indentation in RTL (bullets) */
+html[dir="rtl"] .themed-xblock.xblock--drag-and-drop .keyboard-help-dialog ul {
+  padding-left: 0;
+  padding-right: 1.2em;
+}
