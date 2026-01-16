@@ -299,7 +299,7 @@ function DragAndDropTemplates(configuration) {
                     ),
                     h('p', { className: 'zone-description sr' }, gettext(zone.description) || gettext('droppable')),
                     h(item_wrapper, renderCollection(itemTemplate, items_in_zone, ctx)),
-                    gettext(zone_description)
+                    zone_description
                 ]
             )
         );
@@ -348,6 +348,8 @@ function DragAndDropTemplates(configuration) {
 
     var keyboardHelpPopupTemplate = function(ctx) {
         var labelledby_id = 'modal-window-title-'+configuration.url_name;
+        var lang = document.documentElement.lang || '';
+        var isRTL = lang.startsWith('ar') || lang.startsWith('he');
         return (
             h('div.keyboard-help-dialog', [
                 h('div.modal-window-overlay'),
@@ -359,7 +361,7 @@ function DragAndDropTemplates(configuration) {
                     h('div.modal-header', [
                         h('h2.modal-window-title', {id: labelledby_id}, gettext('Keyboard Help'))
                     ]),
-                    h('div.modal-content', [
+                    h('div.modal-content', {style: isRTL ? {'text-align': 'right'} : {}}, [
                         h('p.sr', gettext('This is a screen reader-friendly problem.')),
                         h('p.sr', gettext('Drag and Drop problems consist of draggable items and dropzones. Users should select a draggable item with their keyboard and then navigate to an appropriate dropzone to drop it.')),
                         h('p', gettext('You can complete this problem using only your keyboard by following the guidance below:')),
