@@ -751,7 +751,7 @@
 
 .xblock--drag-and-drop .modal-window {
     display: none;
-    position: absolute;
+    position: relative;
     width: 600px;
     max-width: 90vw;
     height: auto;
@@ -762,7 +762,7 @@
     padding: 7px;
     background-color: #e5e5e5;
     text-align: left;
-    z-index: 1500;
+    z-index: 999999999999 !important;
 }
 
 .rtl .xblock--drag-and-drop .modal-window {
