@@ -751,7 +751,6 @@
 
 .xblock--drag-and-drop .modal-window {
     display: none;
-    position: relative;
     width: 600px;
     max-width: 90vw;
     height: auto;
@@ -763,6 +762,17 @@
     background-color: #e5e5e5;
     text-align: left;
     z-index: 999999999999 !important;
+      position: fixed !important;
+  inset: 0 !important;          /* top/right/bottom/left = 0 */
+  margin: auto !important;      /* centers horizontally + vertically */
+  
+  width: 600px;                 /* keep your existing sizing */
+  max-width: 90vw;
+  height: fit-content;          /* keep natural height */
+  max-height: 90vh;             /* prevent offscreen on small screens */
+  overflow: auto;               /* scroll inside if too tall */
+
+  transform: none !important;   /* remove translate(-50%, -50%) */
 }
 
 .rtl .xblock--drag-and-drop .modal-window {
