@@ -833,3 +833,16 @@
         box-shadow: none;
     }
 }
+/* Strong override for English */
+html:lang(en) .modal-content,
+html:lang(en) .modal-content * {
+  direction: ltr !important;
+  text-align: left !important;
+}
+
+/* Strong override for Hebrew */
+html:lang(he) .modal-content,
+html:lang(he) .modal-content * {
+  direction: rtl !important;
+  text-align: right !important;
+}
