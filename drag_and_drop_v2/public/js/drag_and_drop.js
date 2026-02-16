@@ -362,8 +362,6 @@ function DragAndDropTemplates(configuration) {
                         h('h2.modal-window-title', {id: labelledby_id}, gettext('Keyboard Help'))
                     ]),
                     h('div.modal-content', {style: isRTL ? {'text-align': 'right'} : {}}, [
-                        h('p.sr', gettext('This is a screen reader-friendly problem.')),
-                        h('p.sr', gettext('Drag and Drop problems consist of draggable items and dropzones. Users should select a draggable item with their keyboard and then navigate to an appropriate dropzone to drop it.')),
                         h('p', gettext('You can complete this problem using only your keyboard by following the guidance below:')),
                         h('ul', [
                             h('li', gettext('Use only TAB and SHIFT+TAB to navigate between draggable items and drop zones.')),
